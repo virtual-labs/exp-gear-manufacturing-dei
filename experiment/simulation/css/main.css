@@ -1,1 +1,52 @@
-/* You CSS goes in here */
+/* Styling for Experiment 3: Gear Manufacturing */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+h2 {
+    color: #004a99;
+    text-align: center;
+    text-transform: uppercase;
+    /* Removed border-bottom to avoid underline */
+}
+
+/* Custom bold class for section headers to avoid underlining */
+.section-header {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 40px;
+    background-color: #eef4f9;
+    padding: 10px 15px;
+    border-left: 6px solid #004a99;
+    border-radius: 4px;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    background-color: #000;
+}
+
+.description-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.label {
+    font-weight: bold;
+    color: #d9534f;
+}
