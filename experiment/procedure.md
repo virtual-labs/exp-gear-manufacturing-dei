@@ -4,10 +4,6 @@ Follow the steps below to conduct the virtual experiment and analyze the extrusi
 
 <br>
 
-Follow the steps below to conduct the virtual experiment and analyze the extrusion and forging processes used in gear manufacturing.
-
-<br>
-
 <b style="font-size: 1.2em;">1. Understanding Gear Geometry and Objective</b>
 First, study the basic concept of gears from the **Theory** section. Observe how gears transmit torque, speed, and motion between shafts. Identify the importance of accurate tooth formation and surface finish in gear performance through the extrusion process.
 
