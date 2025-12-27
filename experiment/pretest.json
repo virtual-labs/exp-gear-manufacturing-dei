@@ -1,36 +1,58 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. A gear is a machine element which is used for transmitting:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Variable power",
+        "b": "Variable speed",
+        "c": "Variable torque",
+        "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Material used for gear extrusion is:",
+      "answers": {
+        "a": "Steel",
+        "b": "Aluminium",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Bevel Gear formation by forging is:",
+      "answers": {
+        "a": "Multi Step",
+        "b": "Single Step",
+        "c": "Both Single and Multi Step",
+        "d": "None of these"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4. The static die in the bevel gear forging process is shown in:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Red",
+        "b": "Green",
+        "c": "Yellow",
+        "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The movable die in the bevel gear forging process:",
+      "answers": {
+        "a": "Red",
+        "b": "Green",
+        "c": "Yellow",
+        "d": "None of these"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
