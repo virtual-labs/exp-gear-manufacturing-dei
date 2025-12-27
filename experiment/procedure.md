@@ -1,4 +1,8 @@
-# Procedure: Gear Manufacturing Analysis
+<b style="font-size: 1.6em; color: black;">Procedure: Gear Manufacturing Analysis</b>
+
+Follow the steps below to conduct the virtual experiment and analyze the extrusion and forging processes used in gear manufacturing.
+
+<br>
 
 Follow the steps below to conduct the virtual experiment and analyze the extrusion and forging processes used in gear manufacturing.
 
