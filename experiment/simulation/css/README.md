@@ -1,12 +1,17 @@
-# Experiment 3: Gear Manufacturing - CSS & Resources
+<b style="font-size: 1.6em; color: black;">Gear Manufacturing Simulation - Documentation</b>
 
-This folder contains the styling and simulation documentation for **Gear Extrusion** and **Bevel Gear Forging**.
+This directory contains the interactive simulation module for **Gear Extrusion** and **Bevel Gear Forging**.
 
-## Contents
-- `main.css`: Stylesheet designed to provide a clean, "no-underline" interface for simulation videos and technical descriptions.
-- `index.html`: The primary simulation interface embedding 6 videos categorized by setup, strain analysis, and graphical data.
+### Process Overview
+1. **Gear Extrusion:** A red billet is pushed by a yellow punch through a green die to form spur gear teeth through plastic deformation.
+2. **Bevel Gear Forging:** A two-step closed die forging process where an initial billet is shaped into a straight bevel gear using intermediate and final die stages.
 
-## Process Overview
-The simulations cover two primary manufacturing methods:
-1. **Extrusion:** Forming spur gear profiles by pushing billets through a shaped die.
-2. **Step Forging:** Creating straight bevel gears using a two-step closed die forging process.
+### Interactive Navigation
+The `index.html` interface uses a vertical navigation stack with **Call to Action** prompts:
+- Users are prompted to choose between setup observations, strain analysis, and force-displacement curve studies.
+- Only one active simulation is displayed at a time to optimize focus and system performance.
+
+### Files
+* **index.html:** Interactive user interface.
+* **css/main.css:** Modern stylesheet for vertical alignment and video cards.
+* **Videos:** Links to 6 raw MP4 simulations hosted on GitHub.
