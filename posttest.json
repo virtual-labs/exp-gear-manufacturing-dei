@@ -1,0 +1,61 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Large gears are generally formed by:",
+      "answers": {
+        "a": "Extrusion",
+        "b": "Upsetting",
+        "c": "Hobbing",
+        "d": "All of these"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "2. Maximum force evolved during extrusion of gear in the video is:",
+      "answers": {
+        "a": "16.46 tonnes",
+        "b": "1.646 tonnes",
+        "c": "1646 tonnes",
+        "d": "164.6 tonnes"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "3. Punch in gear extrusion is shown with which color?",
+      "answers": {
+        "a": "Yellow",
+        "b": "Red",
+        "c": "Wihte",
+        "d": "Green"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. The maximum strain generated in the forged gear is at:",
+      "answers": {
+        "a": "Top edge of teeth",
+        "b": "Bottom edge of teeth",
+        "c": "Middle of gear",
+        "d": "None of these"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Maximum Force evolved in Step 1 of forged gear in video is:",
+      "answers": {
+        "a": "10.5 tonnes",
+        "b": "1.05 tonnes",
+        "c": "0.105 tonnes",
+        "d": "0.0105 tonnes"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}
