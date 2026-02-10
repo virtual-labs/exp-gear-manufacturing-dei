@@ -2,24 +2,28 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
-    padding: 40px 20px;
+    padding: 20px; /* Reduced padding to save vertical space */
     background-color: #f0f4f8;
     color: #333;
+    overflow-y: hidden; /* Disables body scroll if layout fits */
 }
 
-.header-container { text-align: center; margin-bottom: 50px; }
-h2 { color: #004a99; font-size: 2.2em; margin-bottom: 5px; }
-.underline { height: 5px; width: 120px; background-color: #ff6600; margin: 0 auto; border-radius: 2px; }
+.header-container { text-align: center; margin-bottom: 20px; }
+h2 { color: #004a99; font-size: 1.8em; margin-bottom: 5px; }
+.underline { height: 4px; width: 80px; background-color: #ff6600; margin: 0 auto; border-radius: 2px; }
 
-/* Centered Navigation Menu */
+/* Compact Navigation Menu */
 .vertical-nav {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    gap: 35px; 
-    max-width: 850px;
+    justify-content: center; /* Centers items vertically in the container */
+    gap: 15px; /* Significantly reduced gap between items */
+    max-width: 800px;
+    height: auto;
+    max-height: 85vh; /* Ensures the menu doesn't exceed 85% of screen height */
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px 40px; /* Thinner vertical padding */
     background: #ffffff;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.05);
@@ -33,11 +37,10 @@ h2 { color: #004a99; font-size: 2.2em; margin-bottom: 5px; }
 }
 
 .cta-text {
-    font-size: 0.95em;
+    font-size: 0.85em; /* Smaller text size for a compact look */
     color: #666;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-style: italic;
-    font-weight: 600;
     text-align: center;
 }
 
@@ -45,14 +48,14 @@ h2 { color: #004a99; font-size: 2.2em; margin-bottom: 5px; }
     background-color: #004a99;
     color: white;
     border: none;
-    padding: 12px 0;
-    width: 340px; 
-    border-radius: 30px;
+    padding: 10px 0; /* Thinner buttons */
+    width: 300px; /* Standardized button width */
+    border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.1em;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 74, 153, 0.2);
+    font-size: 1em;
+    transition: all 0.2s ease;
+    box-shadow: 0 3px 5px rgba(0, 74, 153, 0.15);
 }
 
 .play-btn:hover {
@@ -76,27 +79,25 @@ h2 { color: #004a99; font-size: 2.2em; margin-bottom: 5px; }
 
 .video-card {
     background: #ffffff;
-    padding: 35px;
+    padding: 25px;
     border-radius: 15px;
     width: 90%;
-    max-width: 850px;
+    max-width: 800px;
     position: relative;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    max-height: 90vh;
-    overflow-y: auto;
 }
 
 .close-btn {
     position: absolute;
-    top: 15px;
-    right: 20px;
+    top: 10px;
+    right: 15px;
     background: #ff6600;
     color: white;
     border: none;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     cursor: pointer;
     display: flex;
@@ -104,18 +105,5 @@ h2 { color: #004a99; font-size: 2.2em; margin-bottom: 5px; }
     align-items: center;
 }
 
-video {
-    display: block;
-    width: 100%;
-    border-radius: 10px;
-    margin: 15px 0;
-    background: #000;
-}
-
-.description-box {
-    background: #fdfdfd;
-    padding: 20px;
-    border-left: 5px solid #004a99;
-    border-radius: 4px;
-    text-align: justify;
-}
+video { width: 100%; border-radius: 8px; margin: 10px 0; background: #000; }
+.description-box { padding: 15px; border-left: 4px solid #004a99; text-align: justify; font-size: 0.9em; }
