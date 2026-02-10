@@ -18,24 +18,29 @@
             <p class="cta-text">Watch the spur gear extrusion process and die setup</p>
             <button class="play-btn" onclick="showSimulation('gear-setup')">▶ Play: Gear Setup</button>
         </div>
+
         <div class="nav-item">
             <p class="cta-text">Analyze material flow and strain contours during extrusion</p>
             <button class="play-btn" onclick="showSimulation('gear-strain')">▶ Play: Gear with Strain</button>
         </div>
+
         <div class="nav-item">
             <p class="cta-text">Study the Force vs. Pilot Height relationship</p>
             <button class="play-btn" onclick="showSimulation('gear-curve')">▶ Play: Gear with Curve</button>
         </div>
+
         <div class="nav-item">
-            <p class="cta-text">Observe Bevel Gear forging: Step 1</p>
+            <p class="cta-text">Observe Bevel Gear forging: Initial Billet to Intermediate Phase</p>
             <button class="play-btn" onclick="showSimulation('bevel-setup1')">▶ Play: Bevel Gear Step 1</button>
         </div>
+
         <div class="nav-item">
             <p class="cta-text">Observe Bevel Gear forging: Final Shape Formation</p>
             <button class="play-btn" onclick="showSimulation('bevel-setup2')">▶ Play: Bevel Gear Step 2</button>
         </div>
+
         <div class="nav-item">
-            <p class="cta-text">Evaluate equivalent strain and forging force</p>
+            <p class="cta-text">Evaluate equivalent strain and forging force for Bevel Gears</p>
             <button class="play-btn" onclick="showSimulation('bevel-strain')">▶ Play: Bevel Gear with Strain</button>
         </div>
     </div>
@@ -48,7 +53,7 @@
                 <source src="https://raw.githubusercontent.com/virtual-labs/exp-gear-manufacturing-dei/17e8740523face2446f6129094a8d039d9a071b8/experiment/simulation/Gear_Setup.mp4" type="video/mp4">
             </video>
             <div class="description-box">
-                <p><strong>Description:</strong> On the left, setup consists of a green extrusion die and yellow punch. The red billet is pushed into the die to engrave gear teeth.</p>
+                <p><strong>Description:</strong> This simulation shows the formation of gear teeth using the extrusion process. On the left, the setup consists of a green extrusion die and a yellow punch. As the punch pushes the red meshed billet into the die, the embossed teeth are engraved.</p>
             </div>
         </div>
     </div>
@@ -61,7 +66,59 @@
                 <source src="https://raw.githubusercontent.com/virtual-labs/exp-gear-manufacturing-dei/17e8740523face2446f6129094a8d039d9a071b8/experiment/simulation/Gear_with_Strain.mp4" type="video/mp4">
             </video>
             <div class="description-box">
-                <p><strong>Description:</strong> Highlights material flow with strain contours visible on the right. Compare colors with the scale on the left.</p>
+                <p><strong>Description:</strong> The video shows the process of gear formation using extrusion process. On the left side, one can observe the setup for gear extrusion. The extrusion die is shown with green and the punch is shown with yellow. The billet with mesh is shown in red. As the punch pushes the billet in the extrusion die, teeth of gear embossed in the die are engraved in the billet. On the right hand side, the picture shows three pictures. The red picture at top is the initial billet, the red picture in middle is the billet with teeth engraved after extrusion and the bottom picture shows the final gear after machining.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="gear-curve" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('gear-curve')">&times;</button>
+            <h3>Gear Extrusion: Force vs. Displacement</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-gear-manufacturing-dei/17e8740523face2446f6129094a8d039d9a071b8/experiment/simulation/Gear_with_Graph.mp4" type="video/mp4">
+            </video>
+            <div class="description-box">
+                <p><strong>Description:</strong> The video shows the process of gear formation using extrusion process. On the left side, one can observe the setup for gear extrusion. The extrusion die is shown with green and the punch is shown with yellow. The billet with mesh is shown in red. As the punch pushes the billet in the extrusion die, teeth of gear embossed in the die are engraved in the billet. On the right hand side, one can see the different strain contours, which can be determined by comparison with scale on the left of screen.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="bevel-setup1" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('bevel-setup1')">&times;</button>
+            <h3>Bevel Gear: Forging Step 1</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-gear-manufacturing-dei/17e8740523face2446f6129094a8d039d9a071b8/experiment/simulation/Bevel_Gear_Setup-1.mp4" type="video/mp4">
+            </video>
+            <div class="description-box">
+                <p><strong>Description:</strong> This simulation shows the formation of straight bevel gears using forging. The right side shows the dies used for the step -1. Simulation for step 1 shows the initial billet placed with the dies used in step 1. The yellow die deforms the initial billet into an intermediate phase. The yellow die is moving in downward direction whereas green die is stationary. On the right is shown the billet deformed in the first step.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="bevel-setup2" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('bevel-setup2')">&times;</button>
+            <h3>Bevel Gear: Forging Step 2</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-gear-manufacturing-dei/17e8740523face2446f6129094a8d039d9a071b8/experiment/simulation/Bevel_Gear_Setup-2.mp4" type="video/mp4">
+            </video>
+            <div class="description-box">
+                <p><strong>Description:</strong> This is a simulation for step 2 of bevel gear formation. The resultant billet from step 1 is used for the final gear for formation in the second step. The image on the top right corner shows the dies used for step-2. The yellow is the upper die which forces down the billet to the required shape. The yellow die is moving in downward direction whereas green die is stationary. The image of billet on the right shows the deformation produced in the billet from step-1 to the desired shape.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="bevel-strain" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('bevel-strain')">&times;</button>
+            <h3>Bevel Gear: Strain and Force Analysis</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-gear-manufacturing-dei/17e8740523face2446f6129094a8d039d9a071b8/experiment/simulation/Bevel_Gear_with_Strain.mp4" type="video/mp4">
+            </video>
+            <div class="description-box">
+                <p><strong>Description:</strong> This simulation shows the generation of equivalent strain during the step -1 of bevel gear formation. The top right simulation shows the formation of equivalent strain as the upper die moves down. The average equivalent strain generated is 0.61 . The graph for the forging force is shown in the bottom right corner. The maximum force is 10.2 Tones. The simulation at left shows the simulation for bevel gear forging for step -1.</p>
             </div>
         </div>
     </div>
