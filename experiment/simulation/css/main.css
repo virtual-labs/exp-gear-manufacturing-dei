@@ -1,71 +1,121 @@
+/* General Layout */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 40px 20px;
     background-color: #f0f4f8;
+    color: #333;
 }
 
-.header-container { text-align: center; margin-bottom: 40px; }
-h2 { color: #004a99; }
-.underline { height: 5px; width: 100px; background: #ff6600; margin: 0 auto; }
+.header-container { text-align: center; margin-bottom: 50px; }
+h2 { color: #004a99; font-size: 2.2em; margin-bottom: 5px; }
+.underline { height: 5px; width: 120px; background-color: #ff6600; margin: 0 auto; border-radius: 2px; }
 
-/* Menu Styling */
+/* Centered Navigation Menu */
 .vertical-nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    max-width: 600px;
+    align-items: center; 
+    gap: 35px; 
+    max-width: 850px;
     margin: 0 auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.cta-text {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+
 .play-btn {
     background-color: #004a99;
     color: white;
     border: none;
-    padding: 12px 30px;
-    border-radius: 25px;
+    padding: 12px 0;
+    width: 340px; 
+    border-radius: 30px;
     cursor: pointer;
-    width: 300px;
     font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 74, 153, 0.2);
+}
+
+.play-btn:hover {
+    background-color: #003366;
+    transform: scale(1.02);
 }
 
 /* Modal Overlay Styling */
 .video-overlay {
-    display: none; /* Initially hidden */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
     z-index: 1000;
     justify-content: center;
     align-items: center;
 }
 
 .video-card {
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
     width: 90%;
-    max-width: 800px;
+    max-width: 850px;
     position: relative;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .close-btn {
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 15px;
+    right: 20px;
     background: #ff6600;
     color: white;
     border: none;
-    font-size: 24px;
-    width: 35px;
-    height: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-video { width: 100%; border-radius: 8px; margin: 15px 0; }
-.description-box { text-align: justify; border-left: 4px solid #004a99; padding-left: 10px; }
+video {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+    background: #000;
+}
+
+.description-box {
+    background: #fdfdfd;
+    padding: 20px;
+    border-left: 5px solid #004a99;
+    border-radius: 4px;
+    text-align: justify;
+}
