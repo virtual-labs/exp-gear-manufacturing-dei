@@ -1,24 +1,24 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Mechanical Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Metal Forming Virtual Simulation Lab (Applications)
+<b> Experiment|     <b> Applications of Gear Manufacturing
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+A gear is a rotating machine part having cut teeth, or cogs, which mesh with another toothed part in order to transmit torque. Two or more gears working in tandem are called a transmission and can produce a mechanical advantage through a gear ratio and thus may be considered a simple machine. Geared devices can change the speed, torque, and direction of a power source.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Rahul Swarup Sharma
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  Dayalbagh Educational Institute
+<b> Email id|     <b>  rahulswarup@dei.ac.in
+<b> Department |  Mechanical Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Ajay Kant Upadhyay | Web Developer | Mechanical Engineering | Dayalbagh Educational Institute | ajaykant900@gmail.com
+
