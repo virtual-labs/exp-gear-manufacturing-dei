@@ -1,0 +1,95 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "number": 1,
+      "question": "1. A gear is a machine element which is used for transmitting:",
+      "answers": {
+        "a": "Variable power",
+        "b": "Variable speed",
+        "c": "Variable torque",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. Gears transmit power at a constant rate depending on input conditions.",
+        "b": "Incorrect. Gears primarily transmit torque, though speed changes as a result of gear ratio.",
+        "c": "Correct. Gears are mainly used for transmitting torque between shafts.",
+        "d": "Incorrect. One of the given options is correct."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 2,
+      "question": "2. Material used for gear extrusion is:",
+      "answers": {
+        "a": "Steel",
+        "b": "Aluminium",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. Although steel is commonly used for gears, the extrusion simulation shown uses aluminium.",
+        "b": "Correct. Aluminium is used in the extrusion simulation due to its good formability.",
+        "c": "Incorrect. In the given context, only aluminium is used.",
+        "d": "Incorrect. One of the options is correct."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 3,
+      "question": "3. Bevel Gear formation by forging is:",
+      "answers": {
+        "a": "Multi Step",
+        "b": "Single Step",
+        "c": "Both Single and Multi Step",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Correct. Bevel gear forging in the shown process is carried out in multiple steps.",
+        "b": "Incorrect. It is not completed in a single step.",
+        "c": "Incorrect. The shown process specifically follows multiple steps.",
+        "d": "Incorrect. One of the options is correct."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 4,
+      "question": "4. The static die in the bevel gear forging process is shown in:",
+      "answers": {
+        "a": "Red",
+        "b": "Green",
+        "c": "Yellow",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. Red does not represent the static die.",
+        "b": "Correct. The static die is shown in green color in the simulation.",
+        "c": "Incorrect. Yellow represents a different component.",
+        "d": "Incorrect. One of the options is correct."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 5,
+      "question": "5. The movable die in the bevel gear forging process is:",
+      "answers": {
+        "a": "Red",
+        "b": "Green",
+        "c": "Yellow",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. Red does not represent the movable die in the simulation.",
+        "b": "Incorrect. Green represents the static die.",
+        "c": "Correct. The movable die is shown in yellow color.",
+        "d": "Incorrect. One of the options is correct."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
