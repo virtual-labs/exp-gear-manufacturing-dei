@@ -1,8 +1,8 @@
-
 {
   "version": 2.0,
   "questions": [
     {
+      "number": 1,
       "question": "1. Large gears are generally formed by:",
       "answers": {
         "a": "Extrusion",
@@ -10,10 +10,17 @@
         "c": "Hobbing",
         "d": "All of these"
       },
+      "explanations": {
+        "a": "Incorrect. Extrusion is not commonly used for producing large gears.",
+        "b": "Incorrect. Upsetting is mainly used to increase cross-sectional area, not for gear tooth generation.",
+        "c": "Correct. Large gears are generally produced by hobbing, a gear cutting process.",
+        "d": "Incorrect. Hobbing is the correct specific process among the given options."
+      },
       "correctAnswer": "c",
       "difficulty": "intermediate"
     },
     {
+      "number": 2,
       "question": "2. Maximum force evolved during extrusion of gear in the video is:",
       "answers": {
         "a": "16.46 tonnes",
@@ -21,21 +28,35 @@
         "c": "1646 tonnes",
         "d": "164.6 tonnes"
       },
+      "explanations": {
+        "a": "Incorrect. This value is too low compared to the value shown in the simulation.",
+        "b": "Incorrect. This is significantly lower than the maximum force observed.",
+        "c": "Incorrect. This value is excessively high for the simulation shown.",
+        "d": "Correct. The maximum force evolved during gear extrusion in the video is 164.6 tonnes."
+      },
       "correctAnswer": "d",
       "difficulty": "intermediate"
     },
     {
+      "number": 3,
       "question": "3. Punch in gear extrusion is shown with which color?",
       "answers": {
         "a": "Yellow",
         "b": "Red",
-        "c": "Wihte",
+        "c": "White",
         "d": "Green"
+      },
+      "explanations": {
+        "a": "Correct. In the simulation video, the punch is shown in yellow color.",
+        "b": "Incorrect. Red does not represent the punch in the simulation.",
+        "c": "Incorrect. White is not used to represent the punch.",
+        "d": "Incorrect. Green is not used for the punch in the simulation."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
+      "number": 4,
       "question": "4. The maximum strain generated in the forged gear is at:",
       "answers": {
         "a": "Top edge of teeth",
@@ -43,16 +64,29 @@
         "c": "Middle of gear",
         "d": "None of these"
       },
+      "explanations": {
+        "a": "Incorrect. Maximum strain is not typically at the top edge of the teeth.",
+        "b": "Correct. The maximum strain is generated at the bottom edge of the gear teeth due to material flow concentration.",
+        "c": "Incorrect. The middle region does not experience maximum strain.",
+        "d": "Incorrect. One of the given options is correct."
+      },
       "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
+      "number": 5,
       "question": "5. Maximum Force evolved in Step 1 of forged gear in video is:",
       "answers": {
         "a": "10.5 tonnes",
         "b": "1.05 tonnes",
         "c": "0.105 tonnes",
         "d": "0.0105 tonnes"
+      },
+      "explanations": {
+        "a": "Correct. The maximum force evolved in Step 1 of the forged gear process is 10.5 tonnes.",
+        "b": "Incorrect. This value is lower than the one shown in the video.",
+        "c": "Incorrect. This value is significantly smaller than the actual force.",
+        "d": "Incorrect. This value is too small compared to the simulation result."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
