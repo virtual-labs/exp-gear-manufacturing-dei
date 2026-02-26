@@ -11,10 +11,10 @@
         "d": "All of these"
       },
       "explanations": {
-        "a": "Incorrect. Extrusion is not commonly used for producing large gears.",
-        "b": "Incorrect. Upsetting is mainly used to increase cross-sectional area, not for gear tooth generation.",
-        "c": "Correct. Large gears are generally produced by hobbing, a gear cutting process.",
-        "d": "Incorrect. Hobbing is the correct specific process among the given options."
+        "a": "Incorrect. Extrusion is mainly used for forming continuous profiles and smaller components.",
+        "b": "Incorrect. Upsetting is generally used to increase cross-sectional area, not for cutting gear teeth.",
+        "c": "Correct. Hobbing is the most common method for manufacturing large gears.",
+        "d": "Incorrect. All listed methods are not typically used for forming large gears."
       },
       "correctAnswer": "c",
       "difficulty": "intermediate"
